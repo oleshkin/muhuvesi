@@ -1,0 +1,13 @@
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	/* TODO: find a decent font on google.fonts */
+}
+
+h1 {
+	font-size: 1.45rem;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
