@@ -11,3 +11,18 @@ h1 {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+body {
+	min-height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	background: url('images/water3.jpeg');
+	background-size: cover;
+	-webkit-background-size: cover;
+}
